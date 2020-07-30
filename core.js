@@ -12,7 +12,7 @@ client.on("message", (msg) => {
         if(msg.content === "!work_start") {
 
             msg.channel.send(`O usuário ${msg.author.username} começou a trabalhar.`);
-            msg.member.setNickname(msg.author.username + " [ Trabalhando ]");
+            msg.member.setNickname(msg.author.username + " 🚀");
             
         } else if(msg.content === "!work_end") {
 
@@ -22,12 +22,12 @@ client.on("message", (msg) => {
         } else if (msg.content === "!work_pause") {
 
             msg.channel.send(`O usuário ${msg.author.username} deu uma pausa.`);
-            msg.member.setNickname(msg.author.username + " [ Em Pausa 👍]");
+            msg.member.setNickname(msg.author.username + "  🍽");
 
         } else if (msg.content === "!work_unpause") {
 
             msg.channel.send(`O usuário ${msg.author.username} saiu da pausa.`);
-            msg.member.setNickname(msg.author.username + " [ Trabalhando ]");
+            msg.member.setNickname(msg.author.username + " 🚀");
 
         } else if (msg.content.startsWith('!help')) {
 
@@ -43,4 +43,4 @@ client.on("message", (msg) => {
     
 });
 
-client.login("NzM4MDkzMDYzMDc0ODczMzY0.XyG4uw.VyfviO4RQtfMDcXlkqvZgmAELvo");
+client.login("NzM4MDkzMDYzMDc0ODczMzY0.XyG4uw.mIMPswK1lsllp9djyPnuEHcdWhs");
